@@ -1,0 +1,27 @@
+{
+    "name": "template",
+    "build": {
+        "context": "..",
+        "dockerfile": "./Dockerfile"
+    },
+    "workspaceMount": "source=${localWorkspaceFolder}/,target=/opt/code,type=bind,consistency=cached",
+    "workspaceFolder": "/opt/code",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.vscode-pylance",
+                "VisualStudioExpteam.vscodeintelicode",
+                "njpwerner.autodocstring",
+                "ms-toolsai.jupyter",
+                "ms-azuretools.vscode-docker",
+                "eamodio.gitlens",
+                "ms-toolsai.datawrangler",
+                "hediet.vscode-drawio",
+                "charliermarsh.ruff",
+                "christian-kohler.path-intellisense"
+            ]
+        }
+    }
+
+}
