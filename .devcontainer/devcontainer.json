@@ -19,7 +19,8 @@
                 "ms-toolsai.datawrangler",
                 "hediet.vscode-drawio",
                 "charliermarsh.ruff",
-                "christian-kohler.path-intellisense"
+                "christian-kohler.path-intellisense",
+                "GitHub.copilot"
             ]
         }
     }
